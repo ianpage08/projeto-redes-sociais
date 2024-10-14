@@ -38,15 +38,27 @@ section.celular {
 }
 
 iframe {
-    margin-top: 80px;
-    margin-left: 20px;
+    position: relative;
+    top: 80px;
+    left: 22px;
     width:270px; 
     height:471px;
 }
-
-img {
+section#icones > picture > a > img:hover {
     
+    border: 4px solid rgb(26, 204, 228);
+    
+}
+section#icones {
+    
+    padding: 10px;
+    
+}
+
+section#icones > picture > a > img {
+    transition-duration: 0.3s;
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
 }
